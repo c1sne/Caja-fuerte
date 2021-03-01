@@ -1,0 +1,35 @@
+body {
+    background-color: #666;
+    color: #eee;
+}
+
+.header__titulo {
+    font-family: cursive, sans-serif;
+    text-align: center;
+    letter-spacing: 20px;
+    word-spacing: 50px;
+}
+
+.main__titulo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.main__parrafo{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.main__parrafo + p{
+    font: normal 500 14px "Raleway", sans-serif;
+    line-height: 22px;
+
+}
+.main__span{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

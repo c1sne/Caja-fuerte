@@ -1,0 +1,49 @@
+/* Selectores de etiquetas */
+header{
+    /* Todos las etiquetas header van a ser afectados 
+    por este selector*/
+    background-color: #444;
+}
+h1{
+    /* Todas las etiquetas h1 */
+    color: #eee;
+}
+h2{
+    /* Todas las etiquetas h2 */
+    font-family: sans-serif;
+}
+section, aside{
+    /* Todas las estiquetas section y 
+    todas las etiquetas aside */
+    border: 1px solid grey;
+}
+
+a{
+    color: crimson;
+}
+
+.enlace_importante{
+    /* Todos las etiquetas o elementos 
+    que tengan la clase enlace importante*/
+    color: teal;
+
+}
+
+.boton_navegacion{
+    text-decoration: none;
+    font-family: cursive;
+    color: yellow;
+}
+button.boton_navegacion{
+    /* Todos las etiquetas"button que tengan la clase
+    "botton_navegacion */
+    color: royalblue;
+}
+
+.boton_navegacion.activo{
+    box-shadow:  #aaa 0px 0px 20px;
+}
+
+#miFooter{
+    background-color: #ccc;
+}
